@@ -1,3 +1,6 @@
+# Prerequisites output
+
+```
 [root@ip-172-31-5-113 ~]# echo 1 > /proc/sys/vm/swappiness
 [root@ip-172-31-5-113 ~]# sudo cat /proc/sys/vm/swappiness
 1
@@ -85,5 +88,5 @@ HOSTNAME=localhost.localdomain
 nscd (pid 4986) is running...
 [root@ip-172-31-5-113 ~]# service ntpd status
 ntpd (pid  5014) is running...
-
+```
 
