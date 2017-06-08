@@ -1,0 +1,66 @@
++++++++++++++++++++++++++++++++++++++++
+-               PERF RUN               -
++++++++++++++++++++++++++++++++++++++++
+-Dmapreduce.job.maps=4
+-Dmapreduce.map.memory.mb=512
+-Dmapreduce.map.java.opts.max.heap=409
+-Dmapreduce.job.reduces=1
+-Dmapreduce.reduce.java.opts.max.heap=409
+TeraGen time: 1:17.78 real,7.09 user,0.88 sys
+TeraSort time: 3:10.95 real,9.65 user,1.07 sys
+
++++++++++++++++++++++++++++++++++++++++
+-               PERF RUN               -
++++++++++++++++++++++++++++++++++++++++
+-Dmapreduce.job.maps=4
+-Dmapreduce.map.memory.mb=1024
+-Dmapreduce.map.java.opts.max.heap=819
+-Dmapreduce.job.reduces=1
+-Dmapreduce.reduce.java.opts.max.heap=819
+TeraGen time: 1:18.91 real,7.28 user,0.90 sys
+TeraSort time: 3:10.14 real,11.22 user,1.19 sys
+
++++++++++++++++++++++++++++++++++++++++
+-               PERF RUN               -
++++++++++++++++++++++++++++++++++++++++
+-Dmapreduce.job.maps=4
+-Dmapreduce.map.memory.mb=2048
+-Dmapreduce.map.java.opts.max.heap=1638
+-Dmapreduce.job.reduces=1
+-Dmapreduce.reduce.java.opts.max.heap=1638
+TeraGen time: 0:03.46 real,4.49 user,0.65 sys
+TeraSort time: 3:51.91 real,9.19 user,0.99 sys
+
++++++++++++++++++++++++++++++++++++++++
+-               PERF RUN               -
++++++++++++++++++++++++++++++++++++++++
+-Dmapreduce.job.maps=4
+-Dmapreduce.map.memory.mb=512
+-Dmapreduce.map.java.opts.max.heap=409
+-Dmapreduce.job.reduces=2
+-Dmapreduce.reduce.java.opts.max.heap=409
+TeraGen time: 1:15.65 real,7.07 user,0.84 sys
+TeraSort time: 2:17.89 real,10.11 user,0.97 sys
+
++++++++++++++++++++++++++++++++++++++++
+-               PERF RUN               -
++++++++++++++++++++++++++++++++++++++++
+-Dmapreduce.job.maps=4
+-Dmapreduce.map.memory.mb=1024
+-Dmapreduce.map.java.opts.max.heap=819
+-Dmapreduce.job.reduces=2
+-Dmapreduce.reduce.java.opts.max.heap=819
+TeraGen time: 1:14.58 real,6.77 user,0.87 sys
+TeraSort time: 2:35.36 real,9.22 user,1.00 sys
+
++++++++++++++++++++++++++++++++++++++++
+-               PERF RUN               -
++++++++++++++++++++++++++++++++++++++++
+-Dmapreduce.job.maps=4
+-Dmapreduce.map.memory.mb=2048
+-Dmapreduce.map.java.opts.max.heap=1638
+-Dmapreduce.job.reduces=2
+-Dmapreduce.reduce.java.opts.max.heap=1638
+TeraGen time: 1:17.41 real,6.65 user,0.92 sys
+TeraSort time: 2:40.00 real,10.21 user,1.04 sys
+
