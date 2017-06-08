@@ -13,7 +13,7 @@ xvdf    202:80   0  100G  0 disk
 └─xvdf1 202:81   0    8G  0 part
 xvde    202:64   0    8G  0 disk /
 [root@ip-172-31-5-113 ~]#
-[root@ip-172-31-5-113 ~]# mkfs.ext4 /dev/xvdf^C
+[root@ip-172-31-5-113 ~]# mkfs.ext4 /dev/xvdf
 [root@ip-172-31-5-113 ~]#
 [root@ip-172-31-5-113 ~]# sudo cat /etc/fstab
 LABEL=centos_root               /        ext4      defaults         0 0
