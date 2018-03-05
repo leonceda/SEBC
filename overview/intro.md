@@ -5,57 +5,56 @@
 
 ---
 
-# <center> Services Enablement Boot Camp </center>
-## <center> June 5-9, 2017 </center>
-## <center> London, UK</center>
+# <center> FCE Install/Operations Boot Camp </center>
+## <center> March 5-9, 2018 </center>
+## <center> Palo Alto, California</center>
 
 ---
 <div style="page-break-after: always;"></div>
 
 ## <center> Introductions & Overview
 
-- <a href="#instructor">Instructors & Students</a>
-- <a href="#audience">Audience Assumptions</a>
-- <a href="#design_layout">Course design</a>
+* <a href="#instructor">Instructors & Students</a>
+* <a href="#audience">Audience Assumptions</a>
+* <a href="#design_layout">Course design</a>
 
 ---
 <div style="page-break-after: always;"></div>
 
-## <center> <a name="instructor"/> Instructors & Students
+## <center> <a name="instructor"/> Instructor & Students
 
-* Robert Siwicki (Senior Solutions Architect) - rsiwicki
-* Michael O'Kane (Senior Solutinos Architect)
+* Michael Ernest (Senior Learning Architect) - mfernest
+* Claudio Fusi (Solutions Architect ) - cfusi
 * Please introduce yourselves:
-    * Name
-    * Region & Role
-    * Your experience with Hadoop to date
+  * Name
+  * Role & Location
+  * Your experience with Hadoop to date
 
 ---
 <div style="page-break-after: always;"></div>
 
 ## <center> <a name="audience"/> Audience Assumptions
 
-The course material assumes you have knowledge and experience
-sufficient to:
+The course material assumes you have knowledge or experience to:
 
-* Complete all work in Cloudera's Hadoop for Administrators Course
+* Complete all labs in Cloudera's Hadoop for Administrators Course
 * Certify as a Hadoop Administrator
-* Install/operate CDH on a multi-node cluster 
+* Install & operate CDH on a multi-node cluster 
 * Prepare a Linux platform for production use
 
 ---
 <div style="page-break-after: always;"></div>
 
-## <center> <a name="course_objectives"/a> Course Objectives
+## <center> <a name="course_objectives"/> Course Objectives
 
-* Prepare you to install CM/CDH clusters for production
-* Evaluate your readiness for engagements
-* Identify next steps for skills development
+* Prepare you to install an EDH cluster for production use
+* Evaluate your readiness for a service engagement
+* Identify next steps in your own skills development for EDH
 
 ---
 <div style="page-break-after: always;"></div>
 
-## <center> <a name="design_layout"/a>Course Plan
+## <center> <a name="design_layout"/>Course Plan
 
 * Seven general topics with specific, up-to-date content
     * <a href="../installation/install.md">Installation</a>
@@ -69,10 +68,10 @@ sufficient to:
 ---
 <div style="page-break-after: always;"></div>
 
-## <center> <a name="scored_challenges"/> Friday Morning: Challenges []()
+## <center> <a name="scored_challenges"/> Friday Morning: Challenge Phase[]()
 
-* Six challenge stages, three hour test period
-    * Install and secure a cluster
+* Six stages, three-hour test period
+    * Install and secure a cluster according to given requirements
 * The previous challenge is available for review
 
 ---
@@ -80,10 +79,10 @@ sufficient to:
 
 ## <center> <a name="scored_labs"/> Submitting Work
 
-* All work is submitted to your GitHub fork
+* All work is submitted to your GitHub repo
     * Add your instructors as Collaborators
-    * We'll review Git/GitHub tools later today
-    * Submit labs in Markdown or PNG screenshots as instructed
+    * We'll review git/GitHub tools in class 
+    * Use Markdown for text and PNG format for screenshots 
 * We score each lab/challenge as `Complete`, `Incomplete`, or `Did Not Submit`
 * The final evaluation is `Pass`, `Provisional Pass`, or `No Pass`
 * We evaluate your labs for
