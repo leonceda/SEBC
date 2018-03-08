@@ -147,7 +147,7 @@ bartfeld:x:3100:3100::/home/bartfeld:/bin/bash
 ip-172-31-18-25.eu-west-1.compute.internal
 driscoll:x:2650:2650::/home/driscoll:/bin/bash
 bartfeld:x:3100:3100::/home/bartfeld:/bin/bash
-
+```
 
 * List the `/etc/group` entries for `intl` and `americas` 
   * Do not list the entire file
