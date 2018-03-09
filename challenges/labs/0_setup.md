@@ -42,7 +42,9 @@ tmpfs           7.8G     0  7.8G   0% /dev/shm
 ```
   * List the command and output for `yum repolist enabled` 
 ```
-ip-172-31-28-78.eu-west-1.compute.internal | SUCCESS | rc=0 >>
+$ yum repolist enabled
+
+ip-172-31-28-78.eu-west-1.compute.internal | 
 Loaded plugins: fastestmirror, presto
 Determining fastest mirrors
  * base: ftp.heanet.ie
@@ -56,7 +58,7 @@ extras           CentOS-6 - Extras                                            52
 updates          CentOS-6 - Updates                                          950
 repolist: 20,175
 
-ip-172-31-24-17.eu-west-1.compute.internal | SUCCESS | rc=0 >>
+ip-172-31-24-17.eu-west-1.compute.internal |
 Loaded plugins: fastestmirror, presto
 Determining fastest mirrors
  * base: ftp.heanet.ie
@@ -70,7 +72,7 @@ extras           CentOS-6 - Extras                                            52
 updates          CentOS-6 - Updates                                          950
 repolist: 20,175
 
-ip-172-31-23-131.eu-west-1.compute.internal | SUCCESS | rc=0 >>
+ip-172-31-23-131.eu-west-1.compute.internal | 
 Loaded plugins: fastestmirror, presto
 Determining fastest mirrors
  * base: ftp.heanet.ie
@@ -84,7 +86,7 @@ extras           CentOS-6 - Extras                                            52
 updates          CentOS-6 - Updates                                          950
 repolist: 20,175
 
-ip-172-31-24-18.eu-west-1.compute.internal | SUCCESS | rc=0 >>
+ip-172-31-24-18.eu-west-1.compute.internal | 
 Loaded plugins: fastestmirror, presto
 Loading mirror speeds from cached hostfile
  * base: ftp.heanet.ie
@@ -98,7 +100,7 @@ extras           CentOS-6 - Extras                                            52
 updates          CentOS-6 - Updates                                          950
 repolist: 20,175
 
-ip-172-31-25-228.eu-west-1.compute.internal | SUCCESS | rc=0 >>
+ip-172-31-25-228.eu-west-1.compute.internal | 
 Loaded plugins: fastestmirror, presto
 Loading mirror speeds from cached hostfile
  * base: ftp.heanet.ie
