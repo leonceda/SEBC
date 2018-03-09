@@ -11,6 +11,12 @@ AWS
 ```
   * List your instances by IP address and DNS name (don't use `/etc/hosts` for this)
 ```
+ip-172-31-25-228.eu-west-1.compute.internal |
+ip-172-31-25-228.eu-west-1.compute.internal has address 172.31.25.228
+
+ip-172-31-24-18.eu-west-1.compute.internal |
+ip-172-31-24-18.eu-west-1.compute.internal has address 172.31.24.18
+
 ip-172-31-28-78.eu-west-1.compute.internal |
 ip-172-31-28-78.eu-west-1.compute.internal has address 172.31.28.78
 
@@ -19,13 +25,8 @@ ip-172-31-24-17.eu-west-1.compute.internal has address 172.31.24.17
 
 ip-172-31-23-131.eu-west-1.compute.internal |
 ip-172-31-23-131.eu-west-1.compute.internal has address 172.31.23.131
-
-ip-172-31-24-18.eu-west-1.compute.internal |
-ip-172-31-24-18.eu-west-1.compute.internal has address 172.31.24.18
-
-ip-172-31-25-228.eu-west-1.compute.internal | 
-ip-172-31-25-228.eu-west-1.compute.internal has address 172.31.25.228
 ```
+
   * List the Linux release you are using 
 ```
 [centos@ip-172-31-25-228 ~]$ cat /etc/redhat-release
